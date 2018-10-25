@@ -99,7 +99,7 @@ class Contactlab_Subscribers_Model_Cron extends Varien_Object {
      * @param String $functionName
      * @param String $storeId
      */
-    public function logCronCall($functionName, $storeId, $storeId = false)
+    public function logCronCall($functionName, $storeId = false)
     {
         Mage::helper('contactlab_commons')
             ->logCronCall(
